@@ -3,6 +3,13 @@
 @media (min-device-width: 600px)
 {
   /* PC */
+  .main_tt
+  {
+    
+  }
+
+
+
   .head
   {
     position: absolute;
@@ -16,10 +23,12 @@
     float: right;
     top: 50%;
     height: 40%;
-    width: 10%;
-    right: 3%;
-    border: 7% groove #2222ff;
-    border-radius: 50%;
+    width: 12%;
+    right: 2%;
+    background: #f1f1f1;
+    border: 2px groove #000099;
+    font-weight: bold;
+    border-radius: 8px;
   }
   #orig
   {
@@ -27,21 +36,23 @@
     float: right;
     top: 50%;
     height: 40%;
-    width: 10%;
-    right: 17%;
-    border: 7% groove #2222ff;
-    border-radius: 50%;
+    width: 12%;
+    right: 16%;
+    background: #f1f1f1;
+    border: 2px groove #000099;
+    font-weight: bold;
+    border-radius: 8px;
   }
   #nameList
   {
     position: absolute;
     top: 20%;
     height: 50%;
-    left: 6%;
-    color: #ff0000;
-    background: #ffffaa;
-    border: 0.05em groove #dddd99;
-    border-radius: 5%;
+    left: 1.55%;
+    color: #000099;
+    background: #f1f1f1;
+    border: 2px groove #000099;
+    border-radius: 8px;
     padding: 0.5%;
   }
 
@@ -62,7 +73,9 @@
     left: 1.5%;
     width: 68%;
     height: 90%;
-    background: #0050ff;
+    background: #5000ff;
+    padding: 0.1%;
+    border-radius: 8px;
   }
 
   #PUTIN_id

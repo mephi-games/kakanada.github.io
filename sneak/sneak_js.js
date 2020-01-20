@@ -86,10 +86,10 @@ function END_P()
             if(Map [j][i] == 0)
             {
               if((i + j) % 2 == 1)
-                td.style.backgroundColor = "#5000ff"; //Пусто
+                td.style.backgroundColor = "#0040ff"; //Пусто
               else
               {
-                td.style.backgroundColor = "#0050ff"; //Пусто
+                td.style.backgroundColor = "#0040ff"; //Пусто
               }
             }
             if(Map [j][i] == 1)

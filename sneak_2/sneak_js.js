@@ -2,7 +2,7 @@
       var IMPF_i = 10;       //количество картинок
       var Map_X = 32;       //размеры карты по оси X
       var Map_Y = 16;       //размеры карты по оси Y
-      var speed = 4;        //скорость змейки
+      var speed = 5;        //скорость змейки
       var TIME_IMPF = 250;  //средний периуд показа картинки
       var AUDIO_W = 1;      //количество аудио
       var speed_L = 5;      //периуд увеличения хвоста
@@ -171,12 +171,19 @@ function PODRTY()
 
 }
 
+var TIME_PUTIN2 = false;
+
 function PUTIN_F()
 {
+        if(TIME_PUTIN2 == true)
+        {
+          TIME_PUTIN2 = false;
+          document.getElementById("PUTIN_id").remove();
+        }
         if(TIME_PUTIN == true)
         {
           TIME_PUTIN = false;
-          document.getElementById("PUTIN_id").remove();
+          TIME_PUTIN2 = true;
         }
         if(rand(TIME_IMPF) == 0)
         {
@@ -254,7 +261,7 @@ function END_P()
             if(Map [j][i] == 0)
             {
               if((i + j) % 2 == 1)
-                td.style.backgroundColor = "#4000ff"; //Пусто - 1
+                td.style.backgroundColor = "#0040ff"; //Пусто - 1
               else
               {
                 td.style.backgroundColor = "#0040ff"; //Пусто - 0
