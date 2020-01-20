@@ -1,0 +1,25 @@
+h1
+{
+  color:red;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+#Ul_1s
+{
+  position: absolute;
+  left: 10%;
+  top: 25%;
+}
+
+#giv_3
+{
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  right: 10px;
+}
+a
+{
+  color: #000000;
+}
