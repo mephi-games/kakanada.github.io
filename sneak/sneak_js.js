@@ -4,7 +4,7 @@ var Map_Y = 20;
 var Start_speed = 4;
 var K_Raz = 20;
 var K_Speed = 1;
-var D_Speed = 0.01;
+var D_Speed = 0.05;
 
 
 
@@ -26,6 +26,18 @@ var DX;
 var DY;
 var MaxLevel = 1;
 var speed = Start_speed;
+
+setInterval(CHECK_SIZE,500);
+function CHECK_SIZE()
+{
+
+                  var size_XY_table = (document.getElementById("tables_div").clientWidth / 2);
+                  var s_size_XY_table = size_XY_table + "px";
+                  var size_XY = 22.18;
+                  if (size_XY_table / Map_Y < size_XY)
+                    s_size_XY_table = size_XY + "em";
+                  document.getElementById("tables_div").style.height = s_size_XY_table;
+}
 
 window.onload=Start();
 Move();
