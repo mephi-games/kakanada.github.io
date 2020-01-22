@@ -1,16 +1,8 @@
 
 
-@media (min-width: 920px)
+@media (min-device-width: 600px)
 {
   /* PC */
-  .PC
-  {
-    display: block;
-  }
-  .MB
-  {
-    display: none;
-  }
   body
   {
     background: #afdafc;
@@ -224,27 +216,141 @@
 
 
 
-
-
-@media (max-width: 920px)
+/*
+@media (max-device-width: 600px)
 {
-  /* mobile */
-  .MB
+  mobile
+  .head
+  {
+    position: absolute;
+    width: 99%;
+    height: 10%;
+    top: 0%
+  }
+  #meny
+  {
+    position: absolute;
+    float: right;
+    top: 50%;
+    height: 40%;
+    width: 10%;
+    right: 3%;
+    border: 7% groove #2222ff;
+    border-radius: 50%;
+  }
+  #orig
+  {
+    position: absolute;
+    float: right;
+    top: 50%;
+    height: 40%;
+    width: 10%;
+    right: 17%;
+    border: 7% groove #2222ff;
+    border-radius: 50%;
+  }
+  #nameList
+  {
+    position: absolute;
+    top: 20%;
+    height: 50%;
+    left: 6%;
+    color: #ff0000;
+    background: #ffffaa;
+    border: 0.05em groove #dddd99;
+    border-radius: 5%;
+    padding: 0.5%;
+  }
+
+
+
+  .main
+  {
+    position: absolute;
+    width: 99%;
+    top: 15%;
+    height: 80%;
+  }
+
+  #F_table
+  {
+    position: absolute;
+    border: 2px groove #000099;
+    left: 1.5%;
+    width: 68%;
+    height: 90%;
+    background: #0050ff;
+  }
+
+  #PUTIN_id
+  {
+    position: absolute;
+    border: 2px groove #000099;
+    left: 1.5%;
+    width: 68%;
+    height: 90%;
+  }
+
+  td
+  {
+    border: 0.5px groove #000099;
+  }
+
+  #giv_inform
+  {
+    position: absolute;
+    float: right;
+    border: 2px ridge #000099;
+    border-radius: 8px;
+    background: #f1f1f1;
+    padding: 1%;
+    width: 24%;
+    right: 2%;
+  }
+
+
+
+  .git_move
   {
     display: block;
   }
-  .PC
+
+
+
+  .footer
   {
-    display: none;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 70px;
+    width: 99%;
+    background: #eaeaea;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-top: 2px groove #000099;
   }
 
-  #PC_version
+  #PODAR
   {
     position: absolute;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    width: 90%;
+    left: 4.5%;
+    background: #fcfcfc;
+    border-bottom: 1px groove #000099;
   }
-}
+
+  #adminName
+  {
+    position: absolute;
+    left: 4.5%;
+    bottom: 5px;
+  }
+
+  #crafterName
+  {
+    position: absolute;
+    right: 5.3%;
+    bottom: 5px;
+  }
+} */
