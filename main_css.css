@@ -1,25 +1,63 @@
+
+body
+{
+  background: #afdafc;
+}
 h1
 {
   color:red;
   position: absolute;
   left: 10%;
   top: 10%;
-}
-#Ul_1s
-{
-  position: absolute;
-  left: 10%;
-  top: 25%;
-}
-
-#giv_3
-{
-  position: absolute;
-  bottom: 0px;
-  left: 10px;
-  right: 10px;
+  color: #000099;
+  background: #f1f1f1;
+  border: 2px groove #000099;
+  border-radius: 8px;
+  padding: 0.5%;
+  font-size: 200%;
 }
 a
 {
   color: #000000;
+}
+
+
+
+#main_ul
+{
+  position: absolute;
+  left: 10%;
+  top: 25%;
+  background: #f1f1f1;
+  border: 2px groove #000099;
+  border-radius: 8px;
+  padding-right: 4%;
+  padding-left: 4%;
+
+}
+
+
+
+.footer
+{
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 99%;
+  background: #eaeaea;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-weight: bold;
+  border-top: 1.34px groove #000099;
+}
+
+#adminName
+{
+  position: absolute;
+  left: 4.5%;
+  bottom: 0px;
+  padding: 0.6px;
+  font-size: 68%;
 }

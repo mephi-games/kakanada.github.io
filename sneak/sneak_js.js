@@ -100,10 +100,10 @@ function END_P()
             td.style.backgroundColor = "#ff0000"; //Яблоко
             if(Map [j][i] == 4)
             td.style.backgroundColor = "#ff6600"; //голова усает хвост
-            td.style.width = (68 / Map_X) + "%";
+            td.style.width = (99.8 / Map_X) + "%";
             tr.appendChild(td);
           }
-          tr.style.width = (90 / Map_Y) + "%";
+          tr.style.width = (99.8 / Map_Y) + "%";
           table.appendChild(tr);
         }
 

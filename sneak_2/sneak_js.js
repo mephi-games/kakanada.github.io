@@ -155,7 +155,7 @@ setInterval( PODRTY, 100);
 function PODRTY()
 {
         var PODRT = " ";
-        var PODAROCK_width = document.getElementById("PODAR").offsetWidth / 7.22;
+        var PODAROCK_width = document.getElementById("PODAR").offsetWidth / 7.22 / 0.75;
         for(var l = 0; l < PODAROCK_width; l++)
         {
           var ll = l + PODAROCK_i;
@@ -294,16 +294,16 @@ function END_P()
               td.style.backgroundColor = "#ffaaaa"; //слово*
               td.style.color = "#aa0000";
             }
-            td.style.width = (68 / Map_X) + "%";
+            td.style.width = (99.8 / Map_X) + "%";
             tr.appendChild(td);
           }
-          tr.style.width = (90 / Map_Y) + "%";
+          tr.style.width = (99.8 / Map_Y) + "%";
           table.appendChild(tr);
         }
 
         document.getElementById("number").innerHTML = ("Уровень : " + (Level2));
 
-        document.getElementById("TEXT_GIM1").innerHTML = ((GIM + 1) + " четверостишье из гима России");
+        document.getElementById("TEXT_GIM1").innerHTML = ((GIM + 1) + " четверостишье из гимна России");
 
 
         table.id = "F_table";
